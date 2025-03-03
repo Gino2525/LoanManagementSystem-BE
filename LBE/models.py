@@ -93,3 +93,4 @@ class Loan(models.Model):
 
     def __str__(self):
         return f"Loan {self.id} - {self.user.username} ({self.status})"
+#ff
